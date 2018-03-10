@@ -6,9 +6,9 @@ APEX-Month-Year-Picker Item Plugin is designed to allow user input for only a mo
 2. Choose Type "Month/Year Picker [Plug-In]"
 
 # Option
-1- Max Month
-2- Disable Past Month
-3- Multiple Language Support based of BROWSER_LANGUAGE for APEX APP
+- Max Month
+- Disable Past Month
+- Multiple Language Support based of BROWSER_LANGUAGE for APEX APP
 
 # Preview
 
