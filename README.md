@@ -12,5 +12,5 @@ APEX-Month-Year-Picker Item Plugin is designed to allow user input for only a mo
 
 # Preview
 
-![](https://github.com/allipierre/Ajax-Jstree-Lazy-Loading-Version-3.3.3/blob/master/jstreeplugin.png)
+![](https://github.com/allipierre/APEX-Month-Year-Picker/blob/master/month_year.png)
 
