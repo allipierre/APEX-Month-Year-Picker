@@ -1,0 +1,40 @@
+{
+  "name": "APEX-Month-Year-Picker Item Plugin",
+  "version": "1.0",
+  "description": "APEX-Month-Year-Picker Item Plugin is
+  designed to allow user input for only a month and year when
+  only that input is required. Clicking on the year, allows the user
+   to jump ahead or back 12 years at a time. Clicking anywhere on the page,
+   except on the month picker menu itself, will cause the month picker to hide.
+   The Month Picker has lots of options for date validation, setting the start year,
+   using an icon button, input masking, internationalization, localization and more.",
+  "keywords": ["javascript", "jquery-ui", "Item","Month-picker", "Plugin"],
+  "homepage": "https://github.com/allipierre/APEX-Month-Year-Picker",
+  "bugs": {
+    "url": "https://github.com/allipierre/APEX-Month-Year-Picker/issues",
+    "email": "allipierre@outlook.com"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Alli Pierre Yotti",
+    "email": "allipierre@outlook.com",
+    "url": "https://apex.oracle.com/pls/apex/f?p=123868:92",
+    "twitter": "pierre_yotti"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/allipierre/APEX-Month-Year-Picker"
+  },
+  "oracle": {
+    "versions": ["11.2.0.1", "12.1.0.1", "12.2.0.1"],
+    "apex": {
+      "versions": ["5.1.4"],
+      "plugin": {
+        "internalName": "YOTTI.MONTH.YEAR.PLUGIN",
+        "type": "item",
+        "demo": "https://apex.oracle.com/pls/apex/f?p=123868:92",
+        "previewImage": "https://raw.githubusercontent.com/allipierre/APEX-Month-Year-Picker/master/month_year.png"
+      }
+    }
+  }
+}
