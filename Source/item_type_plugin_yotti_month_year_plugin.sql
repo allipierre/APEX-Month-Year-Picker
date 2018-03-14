@@ -79,8 +79,7 @@ wwv_flow_api.create_plugin(
 '    l_element_item_id := p_item.name;',
 '    l_name := apex_plugin.get_input_name_for_page_item(false);',
 '    l_escaped_value := apex_escape.html(p_param.value);',
-'    l_browser_language := v(''BROWSER_LANGUAGE'');',
-'   ',
+'    l_browser_language := v(''BROWSER_LANGUAGE'');  ',
 '    --',
 '    l_html_string := ''<input '';',
 '    l_html_string := l_html_string || ''type="text" '';',
@@ -99,7 +98,7 @@ wwv_flow_api.create_plugin(
 '     || ''" '';',
 '    l_html_string := l_html_string',
 '     || ''name="''',
-'     || l_element_item_id',
+'     || l_name',
 '     || ''" '';',
 '    l_html_string := l_html_string',
 '     || ''value="''',
@@ -110,7 +109,7 @@ wwv_flow_api.create_plugin(
 '     || l_element_item_width',
 '     || ''" '';',
 '    l_html_string := l_html_string || '' />'';',
-'    htp.prn(l_html_string);',
+'    sys.htp.prn(l_html_string);',
 '    apex_debug.message(l_html_string);',
 '  ',
 '    -- Initialize the Picker',
@@ -194,6 +193,7 @@ wwv_flow_api.create_plugin_attribute(
 ,p_attribute_type=>'CHECKBOX'
 ,p_is_required=>false
 ,p_default_value=>'N'
+,p_supported_component_types=>'APEX_APPLICATION_PAGE_ITEMS:APEX_APPL_PAGE_IG_COLUMNS'
 ,p_is_translatable=>false
 );
 wwv_flow_api.create_plugin_attribute(
@@ -205,6 +205,7 @@ wwv_flow_api.create_plugin_attribute(
 ,p_prompt=>'start_year_value'
 ,p_attribute_type=>'TEXT'
 ,p_is_required=>false
+,p_supported_component_types=>'APEX_APPLICATION_PAGE_ITEMS:APEX_APPL_PAGE_IG_COLUMNS'
 ,p_is_translatable=>false
 ,p_depending_on_attribute_id=>wwv_flow_api.id(53101346335901713077)
 ,p_depending_on_has_to_exist=>true
