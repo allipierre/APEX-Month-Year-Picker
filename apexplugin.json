@@ -7,7 +7,9 @@
    to jump ahead or back 12 years at a time. Clicking anywhere on the page,
    except on the month picker menu itself, will cause the month picker to hide.
    The Month Picker has lots of options for date validation, setting the start year,
-   using an icon button, input masking, internationalization, localization and more.",
+   using an icon button, input masking, internationalization, localization and more.
+
+   The Plugin is supported for Interactive Grid too",
   "keywords": ["javascript", "jquery-ui", "Item","Month-picker", "Plugin"],
   "homepage": "https://github.com/allipierre/APEX-Month-Year-Picker",
   "bugs": {
